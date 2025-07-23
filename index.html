@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              inter: ["Inter", "sans-serif"],
+              noto: ["Noto Serif", "serif"],
+            },
+          },
+        },
+      };
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <!-- navbar -->
+      <nav class="mx-auto max-w-[1140px] flex justify-between mt-8">
+        <div class="">
+          <img src="assets/logo.png" />
+        </div>
+        <div class="">
+          <ul class="flex gap-12 mt-6 mb-6">
+            <li>
+              <a href="" class="font-inter font-bold text-base nav_home"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a href="" class="font-inter font-normal text-base nav_shop_about"
+                >Shop</a
+              >
+            </li>
+            <li>
+              <a href="" class="font-inter font-normal text-base nav_shop_about"
+                >About Us</a
+              >
+            </li>
+            <li>
+              <a href="" class="font-inter font-normal text-base text-black"
+                >Cart($56)</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- banner -->
+      <section>
+        <div
+          class="mx-auto max-w-[1140px] grid grid-cols-2  mt-32"
+        >
+          <div class="mt-28 ">
+            <span class="font-noto font-bold text-6xl text-black mt-0 mb-0 " 
+              >ALWAYS
+            </span>
+            <span class="font-noto font-bold text-6xl shared_heading_card_color mt-0 mb-0">FRESH</span >
+            <span class="font-noto font-bold text-6xl shared_heading_card_color mt-0 mb-0 ">FLOWERS</span>
+            <p class="font-inter font-normal p_text">
+              Indulge your senses with the beauty and fragrance of our fresh
+              flower shop. From classic roses to exotic blooms, we offer a wide
+              variety of fresh flowers that are perfect for any occasion.
+            </p>
+          </div>
+          <div class="">
+            <img class="h-96 border border-cyan-200 border-dashed"  src="assets/hero-flower.png" />
+          </div>
+        </div>
+      </section>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
+</html>
