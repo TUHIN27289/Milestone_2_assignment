@@ -383,11 +383,13 @@
         </p>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4 p-4 md:h-[500px]">
+
           <div class="flex flex-col gap-4 h-full md:h-full">
             <div
-              class="bg-[url('assets/deal-bloom.png')] bg-cover bg-center rounded-2xl flex justify-center items-center text-white h-[210px] md:h-1/2"
+              class=" relative rounded-2xl overflow-hidden  bg-[url('assets/deal-bloom.png')] bg-cover bg-center  flex justify-center items-center text-white h-[210px] md:h-1/2"
             >
-              <p class="font-noto font-bold text-[20px] text-center">
+             <div class="absolute inset-0 bg-black/40 z-0"></div>
+              <p class="relative z-10 font-noto font-bold text-[20px] text-center">
                 60% Off | Bloom Plant <br />
                 <a class="underline font-inter font-bold text-[16px]" href=""
                   >Shop Now</a
@@ -396,9 +398,10 @@
             </div>
 
             <div
-              class="bg-[url('assets/deal-ana.png')] bg-cover bg-center rounded-2xl flex justify-center items-center text-white h-[210px] md:h-1/2"
+              class="relative md:rounded-2xl overflow-hidden bg-[url('assets/deal-ana.png')] bg-cover bg-center  flex justify-center items-center text-white h-[210px] md:h-1/2"
             >
-              <p class="font-noto font-bold text-[20px] text-center">
+            <div class="absolute inset-0 bg-black/40 z-0"></div>
+              <p class="relative z-10 font-noto font-bold text-[20px] text-center">
                 30% Off | Ana Plant <br />
                 <a class="underline font-inter font-bold text-[16px]" href=""
                   >Shop Now</a
@@ -409,10 +412,11 @@
 
           <div class="md:col-span-2 md:h-full">
             <div
-              class="bg-[url('assets/deal-zabo.png')] bg-cover bg-center rounded-2xl h-[210px] md:h-full flex justify-center items-center text-white"
+              class=" relative rounded-2xl overflow-hidden bg-[url('assets/deal-zabo.png')] bg-cover bg-center bg-[#00000066] h-[210px] md:h-full flex justify-center items-center text-white"
             >
+            <div class="absolute inset-0 bg-black/40 z-0"></div>
               <p
-                class="font-noto font-bold text-[24px] md:text-[40px] text-center"
+                class="relative z-10 font-noto font-bold text-[24px] md:text-[40px] text-center"
               >
                 25% Off | Zabo Plant <br />
                 <a
@@ -424,11 +428,14 @@
             </div>
           </div>
         </div>
+
+
+        
       </section>
 
       <section>
         <div
-          class="bg-[url('assets/news-letter-bg.png')] bg-cover bg-center h-[533px] w-full grid place-items-center md:mt-20"
+          class=" bg-[url('assets/news-letter-bg.png')] bg-cover bg-center h-[533px] w-full grid place-items-center md:mt-20"
         >
           <div class="">
             <h1
@@ -470,7 +477,7 @@
             <li><a href="">Contact Us</a></li>
           </div>
           <div
-            class="list-none flex flex-col mt-8 gap-8 font-inter font-normal md:text-[16px] text-[#00000080]"
+            class="list-none flex flex-col gap-8 font-inter font-normal md:text-[16px] text-[#00000080]"
           >
             <li><a href="">Features</a></li>
             <li><a href="">Pricing</a></li>
